@@ -5,6 +5,18 @@ const apiCountry = "https://countryflagsapi.com/png/";
 const cityInput = document.querySelector("#city-input");
 const searchBtn = document.querySelector('#search');
 
+const cityElement = document.querySelector("#city");
+const tempElement = document.querySelector("#temperature span");
+const descElement = document.querySelector("#description");
+const watherIconElement = document.querySelector("#weather-icon");
+const countryElement = document.querySelector("#country");
+const umidityElement = document.querySelector("#umidity");
+const windElement = document.querySelector("#wind span");
+
+
+
+
+
 const showWeatherData = (city) => {
     console.log(city)
  }
@@ -14,5 +26,5 @@ searchBtn.addEventListener("click", (e) => {
 
     const city = cityInput.value;
 
-    console.log(showWeatherData);
+    showWeatherData(city);
 })
