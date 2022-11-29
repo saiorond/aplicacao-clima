@@ -13,6 +13,7 @@ const countryElement = document.querySelector("#country");
 const humidityElement = document.querySelector("#umidity");
 const windElement = document.querySelector("#wind span");
 
+const weatherContainer = document.querySelector("#weather-data")
 
 const getWeatherData = async (city) => {
     const apiWeatherURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}&lang=pt_br`;
@@ -37,6 +38,8 @@ const showWeatherData = async (city) => {
     countryElement.setAttribute("src", apiCountryURL + data.sys.country);
     humidityElement.innerText = `${data.main.humidity}%`;
     windElement.innerText = `${data.wind.speed}km/h`;
+
+    weatherContainer.classList.remove("hide");
 }
 
 searchBtn.addEventListener("click", (e) => {
@@ -45,4 +48,12 @@ searchBtn.addEventListener("click", (e) => {
     const city = cityInput.value;
 
     showWeatherData(city);
-})
+});
+
+cityInput.addEventListener("keyup", (e) => {
+    if (e.code === "Enter") {
+        const city = e.target.value;
+
+        showWeatherData(city)
+    }
+});
