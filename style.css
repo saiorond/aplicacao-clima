@@ -37,6 +37,7 @@ body {
     border: none;
     flex: 1;
     border-radius: 4px;
+    outline: none;
 }
 
 .form button {
@@ -61,18 +62,20 @@ body {
     justify-content: center;
     align-items: center;
     margin-bottom: 0.6rem;
+    font-size: 1.5rem;
 }
 
 #weather-data h2 i {
-    font-size: 1rem;
+    font-size: 1.2rem;
 }
 
 #weather-data span { 
     margin: 0.6rem;
+    font-size: 1.5rem;
 }
 
 #country { 
-    height: 16px;
+    height: 27px;
 }
 
 #description-container {
@@ -80,6 +83,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0.6rem 0;
+    font-size: 1.3rem;
 }
 
 #details-container {
@@ -92,4 +96,5 @@ body {
     border-right: 1px solid #FFF;
     margin: 0.6rem;
     padding: 0.6rem;
+    font-size: 1.2rem;
 }
