@@ -18,7 +18,7 @@ Essa aplicação é sobre como está o clima em determinada região. Através de
 
 #### Sobre:
 
-![Web required](https://github.com/wellington-bonjardim/PHP-fale-conosco/blob/master/app_fale_conosco/assets/sobre.PNG)
+![Web required](foto)
 
 
 #### Mensagem de erro no envio do e-mail:
