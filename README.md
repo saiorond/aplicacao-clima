@@ -9,21 +9,21 @@ Essa aplicação é sobre como está o clima em determinada região. Através de
 ## Layout web
 #### Página Principal:
 
-![Web index](Foto)
+![Web index](https://github.com/saiorond/aplicacao-clima/blob/main/Imagens/screencapture-aplicacao-clima-vercel-app-2022-12-03-22_13_45.png)
 
-#### Tentativa de envio sem preencher todos dos campos:
+#### Pesquisa pela cidade de Noba Friburgo:
 
-![Web required](Foto)
-
-
-#### Sobre:
-
-![Web required](foto)
+![Web required](https://github.com/saiorond/aplicacao-clima/blob/main/Imagens/screencapture-aplicacao-clima-vercel-app-2022-12-03-22_13_34.png)
 
 
-#### Mensagem de erro no envio do e-mail:
+#### Pesquisa pela cidade de Buenos Aires:
 
-![Web consultar_chamado](foto)
+![Web required](https://github.com/saiorond/aplicacao-clima/blob/main/Imagens/screencapture-aplicacao-clima-vercel-app-2022-12-03-22_14_23.png)
+
+
+#### Pesquisa pela cidade de Paris:
+
+![Web consultar_chamado](https://github.com/saiorond/aplicacao-clima/blob/main/Imagens/screencapture-aplicacao-clima-vercel-app-2022-12-03-22_14_47.png)
 
 # Tecnologias utilizadas
 
